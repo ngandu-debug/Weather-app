@@ -1,0 +1,105 @@
+
+  body {
+      background: url(snow.jpg);
+      background-size: cover;
+      font-family: Sans-Serif, Verdana, Geneva, Tahoma, Segoe UI;
+      text-align: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    #Weather-container {
+      background: rgba(255, 255, 255, 0.3);
+      max-width: 300px;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(0px);
+      border: 1px solid transparent;
+      text-align: center;
+      margin: auto;
+      background: cover;
+    }
+
+    h1 {
+      color: black;
+    }
+
+    input {
+      width: calc(100% - 16px);
+      padding: 8px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      border: 1px solid black;
+      margin-top: 20px;
+    }
+
+    button {
+      background: white;
+      color: black;
+      padding: 10px;
+      border: 1px solid black;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 5px;
+      width: 100px;
+    }
+
+    button:hover {
+      background: #ddd;
+    }
+
+    #temp-div p {
+      font-size: 60px;
+      margin-top: -10px;
+      color: white;
+    }
+
+    #weather-info {
+      font-size: 20px;
+      color: white;
+    }
+
+    #Weather-icon {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto 10px;
+      display: none;
+    }
+
+    #hourly-forecast {
+      margin-top: 20px;
+      overflow-x: auto;
+      white-space: nowrap;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hourly-item {
+      flex: 0 0 auto;
+      width: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 10px;
+      color: white;
+      overflow: scroll;
+    }
+
+    .hourly-item img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 5px;
+      overflow: scroll;
+    }
+
+    #hourly-heading {
+      color: black;
+      margin-top: 10px;
+    }
+
+    
+    
